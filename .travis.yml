@@ -11,3 +11,7 @@ cache:
   directories:
   - _build
   - deps
+
+deploy:
+  provider: script
+  script: bash deploy.sh
